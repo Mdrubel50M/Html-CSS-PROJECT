@@ -1,0 +1,261 @@
+*{
+	padding: 0;
+	margin:0;
+}
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+
+.header-area{
+	background-color: #f4511e;
+}
+.header-area ul li a{
+	color: #fff;
+	text-transform: uppercase;
+}
+/*----================sing-up-area============================--*/
+input[type=text], input[type=password], input[type=emil]{
+	width: 100%;
+	padding: 15px;
+	display: inline-block;
+	background-color: #f11f1f1f;
+	margin:10px 0 12px;
+}
+input[type=text]:focus, input[type=password]:focus,input[type=emil]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+button{
+ background-color: #4CAF50;
+ color: #ffffff;
+ padding: 10px 20px;
+ opacity: .6;
+ margin: 8px 0;
+ border: none;
+ cursor: pointer;
+ width: 100%;
+}
+button:hover{
+	opacity: 1;
+}
+/*
+.button-ar::after{
+	content: '';
+	clear: both;
+	display: table;
+}*/
+/* Float cancel -color */
+.cancelbtn{
+	
+    background-color: #f44336;
+}
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+  padding: 14px 20px;
+}
+/* HOLE-SIGNUP-AREA-PADDING */
+#demo" img{
+	width: 100%;
+	height: 100%;
+}
+#slider-area{
+	padding: 19px;
+}
+/* if we want background color in sign-up page */
+/* HOLE-SIGNUP-AREA */
+/*.modal{
+display: none;
+position: fixed;
+left: 0;
+top:10px;
+width: 50%;
+height: 100%;
+overflow:auto;
+background-color: #474e5d;
+ padding-top: 20px;
+ z-index: ;
+}*/
+
+.modal-content{
+  background-color: #fefefe;
+  margin: 5px auto  5px auto ; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 30%;
+  margin-top:5%;
+
+}
+.close{
+	margin-top:5%;
+	position: absolute;
+	font-size: 42px;
+	right:30%;
+	top: 15px;
+	color:red;
+	font-weight:bold;
+}
+
+/*----================end-header-sing-up-area============================--*/
+
+/* header-area-SLIDER-AREA-*/
+.carousel-inner img{
+    width: 100%;
+   height: 680px;
+}
+.container-fluide span{
+background-color: ;
+}
+.container-fluide .dot{
+	width: 15px;
+	height: 15px;
+	margin:0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+	 cursor: pointer;
+}
+/*----================section-01---area============================--*/
+.section-01{
+	color: #8D8B8B;
+	padding: 20px 0;
+
+}
+#icon-area{
+	padding: 60px 50px;
+}
+.section-01 h5,h4{
+	color: #615E5E;
+	padding-bottom: 10px;
+
+}
+.section-01 p{
+	
+}
+#icon-area i{
+	font-size: 40px;
+	padding: 12px 0;
+	color: #f4511e;
+}
+.section-01 .justify-content-center{
+	padding-top: 20px;
+	margin-top:40px;
+}
+.section-01 button{
+	width: 20%;
+	padding: 15px;
+	border-radius: 30px;
+	
+
+}
+.section-01 button a{
+	font-size:20px;
+	text-decoration: none;
+	color: #ffff;
+	text-transform: uppercase;
+	
+}
+/*----================section-01--============================--*/
+/*----================section-02--area============================--*/
+.section-02{
+	background-color: #BB9CD9;
+	padding: 50px 0;
+	letter-spacing:1.5px;
+	line-height: 1.6;
+	margin:70px 0;
+
+
+}
+.section-02 .carousel-item img{
+width: 100%;
+height: 100%;
+}
+.section-02 .carousel-inner{
+    margin-top:130px;
+}
+.section-02 button{
+	width: 40%;
+	padding: 10px;
+	border-radius: 30px;
+}
+.section-02 button a{
+	font-size:15px;
+	text-decoration: none;
+	color: #ffff;
+	text-transform: uppercase;
+	
+}
+.section-02 .text-left{
+	padding-top:45px ;
+	color: #ffffffff;
+	
+}
+#work img{
+	width: 100%;
+	height: 100%;
+}
+
+.sppb-addon-text h3{
+	font-size:20px;
+}
+/*----================section-03--sing-up-area============================--*/
+.cection-03{
+	margin-top:40px;
+	display:flex;
+}
+.lg .lp{
+ padding: 20px;
+
+}
+#service-area .text-center{
+	padding: 20px 0;
+}
+#service-area img{
+	padding-top:35px;
+	padding-bottom: 10px;
+}
+#service-area p{
+	padding-bottom: 20px;
+}
+.lg{
+	background-color:#deee;
+	
+}
+
+
+.section-04{
+	margin:70px 0;
+	background-color: #D8D8D8;
+}
+.section-04 .text-center{
+	padding: 40px 0;
+}
+.section-04 img{
+
+}
+.section-04 h2{
+	padding-top:10px;
+}
+.section-04 h5{
+	padding-bottom: 10px;
+}
+
+
+.section-05{
+margin:50px 0;
+}
+.section-05 .text-center{
+    padding: 40px 0;
+} 
+.section-05 .card:hover{
+	
+}
+.section-06{
+	background-color:  #D8D8D8;
+	margin:10px 0;
+	padding: 30px 0;
+}
+.social-icon{
+
+}
